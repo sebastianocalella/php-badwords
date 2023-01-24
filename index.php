@@ -3,11 +3,6 @@
     <br>
     <textarea id="paragraph" name="paragraph" rows="5" cols="30" placeholder="Scrivi qui il tuo paragrafo..."></textarea>
     <br>
-    <input type="text" placeholder="Scrivi qui la parola da censurare">
-    <button>invia</button>
+    <input type="text" id="censor" name="censor" placeholder="Scrivi qui la parola da censurare">
+    <button type="submit">invia</button>
 </form>
-
-
-<?php 
-    echo $_GET['paragraph'];
-?>
